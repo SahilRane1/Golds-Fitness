@@ -1,0 +1,104 @@
+ body{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: rgb(24, 12, 12);
+    margin: 0px;
+    padding: 0px;
+    background: url('1.jpg');
+     background-repeat: no-repeat;
+    background-size: 1550px 900px;  
+} 
+#navbar{
+    display: inline-block;
+}
+#navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+#navbar li a:hover, navbar li a:active{
+   text-decoration: underline;
+   color: grey;
+}
+.container{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.logo div{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    color: gold;
+}
+.center{
+    height: 50px;
+    width: 550px;
+    /* border: 2px solid red; */
+    text-align: center;
+    /* padding: 5px ; */
+    /* justify-content: center; */
+    margin-top: 20px;
+    margin-left: 400px;
+    /* display: inline-block; */
+}
+.right{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    margin-left: 300px;
+}
+.btn{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 0px 5px;
+    background-color: black;
+    color: white;
+    padding: 7px 6px;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+.btn:hover{
+    color: grey;
+    cursor: pointer;
+}
+.contain{
+    border: 2px solid white;
+    margin: 46px 255px;
+    padding: 75px 100px;
+    width:  33%;
+    border-radius: 28px;
+}
+.formgroup input{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid yellow;
+    font-size: 20px;
+    margin: 11px auto;
+    border-radius: 20px;
+}
+.contain h1{
+    text-align: center;
+}
+.formgroup button{
+    display: block;
+    width: 33%;
+    margin: auto;
+}
